@@ -1,6 +1,12 @@
 .input{
-  background-color: var(--color-dark-500);
-  color: var(--color-light-900);
-  max-width: 212px;
-  max-height: 40px;
+  background-color: #202020;
+  color: #828282;
+  width: 212px;
+  height: 40px;
+}
+.input::placeholder {
+  position: absolute;
+  left: 15px;
+  top: 50%; /* Сдвигаем вниз на половину высоты */
+  transform: translateY(-50%); /* Чтобы выровнять по вертикали */
 }

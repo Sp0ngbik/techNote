@@ -1,0 +1,19 @@
+.links{
+  display: flex;
+  gap: 25px;
+  margin-left: 25px;
+  align-items: center;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 700px;
+  max-height: 74px;
+  background-color: #0d0d0d;
+}
+.link{
+  text-decoration: none;
+  color: #d2d2d2;
+}
