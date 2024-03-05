@@ -9,11 +9,8 @@
   flex-direction: row;
   justify-content: space-between;
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 1280px;
   max-height: 74px;
-  background-color: #0d0d0d;
-}
-.link{
-  text-decoration: none;
-  color: #d2d2d2;
+  background-color: var(--color-dark-900);
+  box-shadow: 2px 2px 5px var(--color-dark-500);
 }
