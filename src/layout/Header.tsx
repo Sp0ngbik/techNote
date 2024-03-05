@@ -1,7 +1,7 @@
 import React from 'react';
-import Input from "../ui/input/input";
 import Link from "next/link";
 import s from './Header.module.scss'
+import { Input } from '@/ui/input/input';
 const Header = () => {
     return (
         <header className={s.header}>
