@@ -9,17 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource/roboto": "^5.0.12",
     "next": "14.1.1",
     "react": "^18",
     "react-dom": "^18",
     "sass": "^1.71.1"
   },
   "devDependencies": {
+    "@it-incubator/eslint-config": "^1.0.2",
+    "@it-incubator/prettier-config": "^0.1.2",
+    "@it-incubator/stylelint-config": "^1.0.3",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.1.1",
+    "stylelint": "^16.2.1",
     "typescript": "^5"
   }
 }
