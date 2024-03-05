@@ -1,8 +1,9 @@
 .input{
-  background-color: #202020;
-  color: #828282;
+  background-color: var(--color-dark-500);
+  color: var(--color-light-900);
   width: 212px;
   height: 40px;
+  border: none;
 }
 .input::placeholder {
   position: absolute;
