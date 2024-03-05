@@ -1,7 +1,5 @@
 import wrap from '@/assets/image/wrap.jpeg'
-import { Card } from '@/components/card/card'
-
-import style from '@/app/page.module.css'
+import {Card} from '@/components/card/card'
 
 export default function Home() {
   const mock = [
@@ -29,7 +27,7 @@ export default function Home() {
   ]
 
   return (
-    <main className={style.container}>
+    <>
       {mock.map(card => {
         return (
           <Card
@@ -42,6 +40,6 @@ export default function Home() {
           />
         )
       })}
-    </main>
+    </>
   )
 }

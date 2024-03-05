@@ -13,7 +13,7 @@ export const Card = ({ date, heading, image, tag, text }: CardPropsType) => {
         <h3 className={style.cardHeader}>{heading}</h3>
         <p className={style.cardText}>{text}</p>
         <div className={style.cardInfo}>
-          <div className={style.cardGroup}>
+          <div>
             <span className={style.cardInfoSpan}>{date}</span>
             <Dot />
             <span className={style.cardInfoSpan}>{tag}</span>

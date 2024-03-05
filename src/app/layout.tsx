@@ -1,6 +1,11 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import Header from '@/layout/Header'
+import style from '@/app/page.module.css'
+import '@/styles/index.scss'
+import '@fontsource/roboto/400.css'
+import '@fontsource/roboto/500.css'
+import '@fontsource/roboto/700.css'
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,7 +21,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Header />
-        {children}
+        <main className={style.container}>
+            {children}
+        </main>
       </body>
     </html>
   )
